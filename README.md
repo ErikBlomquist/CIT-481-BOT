@@ -4,10 +4,11 @@ New repo for final 481 project - ChatOps
 - Erik Blomquist
 
 ## Tools/Technologies used
-- Slack
-- Ansible
+- Terraform
 - StackStorm
+- Slack
 - Hubot
+- Ansible
 
 ## How to execute
 
