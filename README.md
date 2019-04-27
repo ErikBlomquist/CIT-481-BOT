@@ -1,4 +1,4 @@
-# CIT-481-BOT
+# CIT-481-ChatOps-Bot
 New repo for final 481 project - ChatOps
 - Alex Enaceanu
 - Erik Blomquist
