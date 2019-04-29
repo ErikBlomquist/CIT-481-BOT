@@ -15,11 +15,13 @@ Make sure that you have downloaded your private-key-file.pem before starting. Fo
 
 ### Terraform
 1. Clone Project
+
         git clone
         https://github.com/ErikBlomquist/CIT-481-BOT
         cd CIT-481-BOT/terraform
 
 2. Initialize Terraform
+
         terraform init
 
 3. Pass Environment Variables
@@ -123,5 +125,4 @@ A good practice is to destroy the resources while they are not being used to avo
 
 ### Issues
 - t2.micro instances do not meet the minimal requirements. t2.medium instances are recommended for testing.
-- not using the correct private key.
 - StackStorm Web UI blocked, need to open ports for it.
