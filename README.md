@@ -16,8 +16,7 @@ Make sure that you have downloaded your private-key-file.pem before starting. Fo
 ### Terraform
 1. Clone Project
 
-        git clone
-        https://github.com/ErikBlomquist/CIT-481-BOT
+        git clone https://github.com/ErikBlomquist/CIT-481-BOT
         cd CIT-481-BOT/terraform
 
 2. Initialize Terraform
