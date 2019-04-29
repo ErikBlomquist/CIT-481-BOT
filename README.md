@@ -4,17 +4,19 @@ New repo for final 481 project - ChatOps
 - Erik Blomquist
 
 ## Tools/Technologies used
-- Terraform
-- Slack and Hubot
-- StackStorm
-- Ansible
+- [Terraform](#terraform)
+- [Slack and Hubot](#slack-and-hubot)
+- [StackStorm](#stackstorm)
+- [Ansible](#ansible)
 
 ## How to execute
+
 Make sure that you have downloaded your private-key-file.pem before starting. Follow instructions below carefully.
 
 ### Terraform
 1. Clone Project
-        git clone https://github.com/ErikBlomquist/CIT-481-BOT
+        git clone
+        https://github.com/ErikBlomquist/CIT-481-BOT
         cd CIT-481-BOT/terraform
 
 2. Initialize Terraform
@@ -60,7 +62,7 @@ Make sure that you have downloaded your private-key-file.pem before starting. Fo
 ## Invite Bot
 Go to your Slack workspace and type /invite @name-of-your-bot:
 
-        /invite @testy 
+        /invite @fat-lou 
 
 ## StackStorm
 1. Once you have logged into your instance, you need to create a Stackstorm API key, once created copy it.
@@ -100,7 +102,7 @@ Go to your Slack workspace and type /invite @name-of-your-bot:
 6. Install pack 
                 !pack install https://github.com/armab/st2_chatops_aliases
 
-
+## Ansible
 ### Run Ansible Playbook from Slack
         !ansible ansible-playbook /path/of/file.yaml
 
@@ -123,8 +125,3 @@ A good practice is to destroy the resources while they are not being used to avo
 - t2.micro instances do not meet the minimal requirements. t2.medium instances are recommended for testing.
 - not using the correct private key.
 - StackStorm Web UI blocked, need to open ports for it.
-
-
---------------
-## Register new alias
-st2ctl reload --register-aliases
